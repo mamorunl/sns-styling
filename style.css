@@ -7,16 +7,16 @@ span.expander a.button { height: auto; }
 #content { padding: 25px 0 75px !important; }
 #content #columns {
     width: 100%;
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
-#content #columns #navigation { width: 16%; margin-right: 0; padding: 0 15px; box-sizing: border-box; }
+#content #columns #navigation { width: 20%; margin-right: 0; padding: 0 15px; box-sizing: border-box; }
 
 #content #columns #mainContent.two-cols { width: 84%; box-sizing: border-box; padding: 0 15px; }
 #content #mainContent div.three_col { width: 100%; }
 #content #columns #mainContent.three_col {
-    width: 68%;
+    width: 66%;
     margin: 0;
     padding: 0 15px;
     box-sizing: border-box;
@@ -107,12 +107,14 @@ div.amountFields { width: auto !important; }
     background-color: #2D56A1;
 }
 
-/* Form elements */
-select, input[type=text] { 
+/* 
+ * Form elements 
+ */
+select, input[type=text], .inputText { 
     border-radius: 0 !important;
     padding: 6px 12px !important;
     text-align: left !important;
-    height: 34px !important;
+    height: auto !important;
     font-size: 14px;
 }
 
@@ -136,7 +138,9 @@ fieldset {
 
 #content #mainContent .helpicon { display: none; }
 
-/* Progressbar */
+/* 
+ * Progressbar 
+ */
 .progressbar {
     border-radius: 5px;
     height: 26px;
@@ -150,7 +154,9 @@ fieldset {
     padding: 5px 7px;
 }
 
-/* Table heading */
+/* 
+ * Table heading 
+ */
 #kasboekRowHeader {
     background: #5B246F;
 }
@@ -340,4 +346,25 @@ fieldset {
     height: auto;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+
+#pageWrapper #header .mijnSNSBoxBorder .mijnSNSBox .bottom a {
+    margin: 0;
+    padding: 0;
+    background: none;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+}
+
+#content #contact .text-block {
+    margin: 0;
+    padding: 0;
+}
+
+#pageWrapper #content #contact .box h2 {
+    margin-bottom: 14px;
+}
+#pageWrapper #content #contact .box .padding:last-of-type {
+    text-align: center;
 }

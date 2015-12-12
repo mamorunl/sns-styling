@@ -1,0 +1,343 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { text-rendering: initial; }
+span.expander a.button { height: auto; }
+#footer { box-sizing: border-box; }
+#pageWrapper #footer #quickLinks li { float: left; padding: 0 10px; display: inline-block; }
+#pageWrapper #footer #quickLinks li a { float: none; height: auto; width: auto; display: block; padding: 0; margin: 0; }
+#pageWrapper #content, #footer .footer-wrapper { width: 100%; }
+#content { padding: 25px 0 75px !important; }
+#content #columns {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#content #columns #navigation { width: 16%; margin-right: 0; padding: 0 15px; box-sizing: border-box; }
+
+#content #columns #mainContent.two-cols { width: 84%; box-sizing: border-box; padding: 0 15px; }
+#content #mainContent div.three_col { width: 100%; }
+#content #columns #mainContent.three_col {
+    width: 68%;
+    margin: 0;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+/* Components */
+#content #columns #components {
+    width: 14%;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+#content #columns #components .box {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+/* Navigation */
+.iconPrintTemplate { display: none; }
+
+#content .navigationPanel .panel { border-radius: 0 !important; background-color: #EDECF7; color: #fff; margin-bottom: 13px !important; }
+#content #columns .navigationPanel div.accordion { border-radius: 0; width: 100%; }
+#content .navigationPanel div.accordion .panel a { 
+    color: #333 !important; 
+}
+#content .navigationPanel div.accordion div.panelBody { 
+    background: transparent; color: #fff; 
+}
+#content .navigationPanel div.accordion .panel h3, #content .navigationPanel div.accordion div.panel .header { 
+    border-radius: 0; width: auto !important; padding: 0 !important; margin: 0 !important; height: auto !important; 
+     font-size: 16px !important; text-indent: 0 !important; box-sizing: border-box; display: block; 
+}
+#content .navigationPanel div.accordion .panel h3 a, #content .navigationPanel div.accordion .panel h3 .noLink, #content .navigationPanel div.accordion .panel .header a, #content .navigationPanel div.accordion div.active h3.home a { 
+    display: block !important; 
+    width: auto !important; 
+    height: auto !important; 
+    margin: 0 !important; 
+    padding: 12px 15px !important; 
+    color: #fff !important; 
+    background: #2D56A1;
+}
+#content .navigationPanel .panel h3:hover, #content .navigationPanel .panel .header a:hover, .navigationPanel div.accordion h3.idlehome a:hover { 
+    background-color: #2D56A1 !important; /* Blue */
+    color: #fff !important; 
+}
+   
+.navigationPanel .panel ul { 
+    padding: 4px 0 10px !important; margin: 0 !important; 
+}
+.navigationPanel .panel ul li, .navigationPanel .panel ul li.active { 
+    -o-border-radius: 0; -webkit-border-radius: 0; border-radius: 0 !important; height: auto !important; line-height: 24px !important; width: auto !important; text-indent: 0 !important; padding: 0 !important; margin: 0 !important; display: block !important; background-image: none !important; 
+}
+.navigationPanel .panel ul li a { 
+    padding: 5px 0 0 15px !important; height: auto !important; width: auto !important; box-sizing: border-box; line-height: 24px !important; 
+    border-left: 3px solid transparent;
+    transition: border 0.5s ease, color 0.3s ease;
+}
+#content .navigationPanel div.accordion div.panelBody ul li.active {
+    background-color: transparent;
+}
+#content .navigationPanel .panel ul li a:hover, #content .navigationPanel .panel ul li.active a { 
+    width: auto !important; 
+    margin: 0 !important; 
+    text-decoration: none !important; 
+    color: #f59c00 !important; 
+    background: transparent !important; 
+    height: auto !important; 
+    border-left: 3px solid #5b246f;
+    border-radius: 0 !important;
+    transition: border 0.5s ease, color 0.4s ease;
+}
+
+#homepage-settings-buttons > div { padding-right: 0 !important; position: relative !important; display: none !important; }
+#homepage-settings-buttons > div .button { -o-border-top-right-radius: 0; -webkit-border-top-right-radius: 0; border-top-right-radius: 0; -o-border-top-left-radius: 0; -webkit-border-top-left-radius: 0; border-top-left-radius: 0; position: absolute !important; top: -10px !important; }
+#homepage-settings-buttons > div .button > span { height: auto !important; display: block !important; width: auto !important; }
+
+div.amountFields { width: auto !important; }
+#submitButtons { text-align: right !important; margin: 0 !important; padding: 10px !important; }
+#content #mainContent form.form { width: auto !important; margin: 0 !important; }
+.divider { content: " " !important; color: #ddd !important; }
+
+#pageWrapper #header .mijnSNSBox p { position: relative; top: 0; margin-top: 7px; line-height: 24px; font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 12px; }
+
+#content #mainContent div.top_content {
+    background: #EDECF7;
+}
+
+.top_title {
+    border-radius: 0;
+    background-color: #2D56A1;
+}
+
+/* Form elements */
+select, input[type=text] { 
+    border-radius: 0 !important;
+    padding: 6px 12px !important;
+    text-align: left !important;
+    height: 34px !important;
+    font-size: 14px;
+}
+
+select.wide, .accountSelectMultilineList.wide {
+    width: 100% !important;
+}
+
+fieldset { 
+    border: none !important; padding: 4px 0 !important;
+    background: transparent !important;
+}
+
+#pageWrapper .search-box .button {
+    height: 34px;
+}
+#pageWrapper .search-box .button .inputSubmit {
+    height: 34px;
+}
+
+.accountSelectMultiline.multiline { float: none !important; position: relative; display: block; }
+
+#content #mainContent .helpicon { display: none; }
+
+/* Progressbar */
+.progressbar {
+    border-radius: 5px;
+    height: 26px;
+}
+.progressbar .progressbar-value {
+    height: 100%;
+    border-radius: 5px;
+    background: #F3795B;
+}
+.progressbarContainer .currentAmount {
+    padding: 5px 7px;
+}
+
+/* Table heading */
+#kasboekRowHeader {
+    background: #5B246F;
+}
+#kasboekRowHeader span.sort {
+    float: none;
+    color: #fff;
+}
+#kasboekRowHeader a {
+    color: #fff;
+    font-weight: normal;
+    font-size: inherit;
+}
+
+/* Spaarpotten */
+#content #mainContent form#addSavingGoalForm {
+    background: #f8f8f8 !important;
+    border: 2px solid #F3795B !important;
+    box-shadow: 1px 1px 5px 0px #333;
+}
+#newSavingGoalFormContainer {
+    padding-bottom: 7px;
+}
+#newSavingGoalFormContainer h2 {
+    background: #F3795B;
+    padding: 15px;
+    margin: 0 0 15px 0 !important;
+    color: #FFF;
+    font-size: 16px !important;
+}
+#newSavingGoalFormContainer #submitButtons .buttonArrow {
+    background: none !important;
+    border: none !important;
+    border-radius: 0;
+}
+#savings_account_iban label.small:before {
+    content: "Jouw IBAN:";
+    line-height: 26px;
+}
+#savings_account_iban label.small {
+    width: auto !important;
+    padding: 0 !important;
+    line-height: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+#content #mainContent #savings_account_iban .account_iban {
+    margin: 0;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#addSavingGoalSnippetButton, #addSavingGoalButton {
+    background-color: #F3795B;
+    padding: 7px 11px;
+    color: #fff;
+    border-radius: 2px !important;
+    height: auto;
+}
+#addSavingGoalSnippetButton:hover {
+    text-decoration: none;
+    background-color: #DA6042;
+}
+#addSavingGoalSnippetButton:hover span {
+    text-decoration: none; 
+}
+#addSavingGoalSnippetButton span, #addSavingGoalSnippetButton:before {
+    color: #fff;
+}
+.kasboekRowAction { padding: 0 !important; }
+.kasboekRow .linkListDiv {
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+}
+.kasboekRow ul.iconDropdown li:not(.listTitle) {
+    border-radius: 0;
+    padding: 7px 15px;
+}
+.kasboekRow ul.iconDropdown li.first {
+    padding-top: 14px;
+}
+.kasboekRow ul.iconDropdown li.last {
+    padding-bottom: 14px;
+}
+#kasboekList_content div.boxEnd {
+    width: 100%;
+    background: none;
+    border-top: 3px solid #2D56A1;
+    border-bottom: 1px solid #5B246F;
+    height: 2px;
+    border-radius: 0;
+}
+.dropdownoption .dropdownoptionitem.accountnumber {
+    width:94%;
+}
+.dropdownoption .dropdownoptionitem.balance {
+    width: 5%;
+}
+.dropdownoption .dropdownoptionitem.eurosign {
+    width: 1%;
+}
+.kasboekRowImage span.imageContainer {
+    background-color: #fff;
+    border: 2px solid #5B246F;
+    border-radius: 2px;
+}
+.kasboekRowImage span.imageContainer:hover {
+    background-color: #eee;
+}
+.kasboekRowImage span.imageContainer:hover a {
+    text-decoration: none;
+}
+#kasboekRowsContainer .progressbarContainer .maxAmount, #kasboekRowsContainer .progressbarContainer .minAmount {
+    margin-right: 5px;
+}
+.kasboekRowContent .progressbarContainer .currentAmountInputField {
+    display: none;
+}
+.kasboekRowContent .ui-slider-handle {
+    display: none !important;
+}
+
+/* Default overzicht */
+#transactionListContainer tr.shortRow {
+    background-color: rgba(45, 86, 161, 0.2);
+}
+
+/* Website main */
+#pageWrapper #content, #pageWrapper #header, #pageWrapper #footer .footer-wrapper {
+ 	width: 1170px;
+}
+#pageWrapper #header #headerContent, #pageWrapper #content #three-cols, #content .box {
+    width: 100%;
+}
+
+#pageWrapper #content #three-cols > div {
+    width: 50% !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+
+#pageWrapper #content #three-cols > div:first-of-type, #pageWrapper #content #three-cols > div:last-of-type {
+    width: 25% !important;
+}
+#pageWrapper #content #three-cols #contact {
+    color: #fff;
+    margin-bottom: 25px !important;
+    border-radius: 5px;
+}
+
+#pageWrapper #content #contact .box:last-of-type {
+    background-color: #562772;
+}
+
+#pageWrapper #content #contact .box {
+    background-color: #5FCCF7;
+}
+
+#pageWrapper #content #contact .box:first-of-type {
+    background-color: #F59C00;
+}
+
+#pageWrapper #content #contact .box h2, #pageWrapper #content #contact .box .media .media-body a, #pageWrapper #content #contact .box .media-image .icn-sc,  #pageWrapper #content #contact .box .media-image .icn-sc:before, #pageWrapper #content #contact .bullet, #pageWrapper #content #contact ul li {
+    color: #fff;
+    padding-left: 0;
+}
+
+.primary-arrow, #pageContainer #content li.alt a:before, #pageContainer #content .bullet:before, #pageWrapper #content li.alt a:before, #pageWrapper #content .bullet:before, #pageWrapper #content .digiContainer .icontextArrowRight:before, #pageContainer #content #contact .media .media-body a:before, #pageWrapper #content #contact .media .media-body a:before {
+    display: none;
+}
+
+#pageContainer #content li.alt a, #pageContainer #content .bullet, #pageWrapper #content li.alt a, #pageWrapper #content .bullet, #pageContainer #content #contact .media .media-body a, #pageWrapper #content #contact .media .media-body a {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#pageWrapper #content #contact .bullet {
+    font-weight: normal;
+}
+
+#pageWrapper #content #displayWindow.fourCol #displayContent {
+    min-width: 665px !important;
+}
+
+#pageWrapper #header .mijnSNSBoxBorder .mijnSNSBox .bottom {
+    padding: 15px 11px;
+    height: auto;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

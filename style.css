@@ -13,7 +13,7 @@ span.expander a.button { height: auto; }
 
 #content #columns #navigation { width: 20%; margin-right: 0; padding: 0 15px; box-sizing: border-box; }
 
-#content #columns #mainContent.two-cols { width: 84%; box-sizing: border-box; padding: 0 15px; }
+#content #columns #mainContent.two-cols { width: 80%; box-sizing: border-box; padding: 0 15px; }
 #content #mainContent div.three_col { width: 100%; }
 #content #columns #mainContent.three_col {
     width: 66%;

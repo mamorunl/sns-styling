@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+/**
+ * Priority Icons
+ **/
+img[src="https://rapideinternet.atlassian.net/images/icons/priorities/highest.svg"], img[src="https://rapideinternet.atlassian.net/images/icons/priorities/high.svg"], img[src="/images/icons/priorities/highest.svg"], img[src="/images/icons/priorities/high.svg"] {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 16px !important;
+    padding-top: 16px !important;
+    background: url('https://image.flaticon.com/icons/svg/196/196759.svg') no-repeat !important;
+    background-size: contain;
+}
+
+img[src="https://rapideinternet.atlassian.net/images/icons/priorities/medium.svg"], img[src="/images/icons/priorities/medium.svg"] {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 16px !important;
+    padding-top: 16px !important;
+    background: url('https://image.flaticon.com/icons/svg/189/189755.svg') no-repeat !important;
+    background-size: contain;
+}
+
+img[src="https://rapideinternet.atlassian.net/images/icons/priorities/low.svg"], img[src="https://rapideinternet.atlassian.net/images/icons/priorities/lowest.svg"], img[src="/images/icons/priorities/low.svg"], img[src="/images/icons/priorities/lowest.svg"] {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 16px !important;
+    padding-top: 16px !important;
+    background: url('https://image.flaticon.com/icons/svg/189/189807.svg') no-repeat !important;
+    background-size: contain;
+}
+
+/**
+ * Buttons
+ **/
+.aui-header .aui-button.aui-button-primary.aui-style#create_link {
+    background-color: #ff8000;
+    border-radius: 1px;
+    padding: 4px 25px;
+    font-weight: 400;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+.aui-header .aui-button.aui-button-primary.aui-style#create_link:hover {
+    background-color: #ff5500;
+}
